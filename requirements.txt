@@ -1,0 +1,16 @@
+# TSPRank 股票选股系统 - Python 依赖
+# 环境: conda env: bigdata (Python 3.11)
+
+# 核心依赖
+torch>=2.0.0
+lightgbm>=4.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# qlib (Alpha158特征加载)
+pyqlib>=0.9.0
+pyarrow>=12.0.0
+
+# 可视化 (evaluator.py)
+matplotlib>=3.7.0

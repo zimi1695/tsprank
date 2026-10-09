@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated files
+output/backtest_results.csv
+output/backtest_results_equity_curve.png
+data/test.csv
+data/.industry_progress.txt
+temp/tmp.csv
+
+# Model checkpoints (large files)
+checkpoints/*.pkl
+checkpoints/*.pt
+
+# Cache (large files)
+cache/*.parquet
+
+# Data (large files)
+data/qlib_bin/
+data/stock_data.csv
+
+# Logs (run logs only; 诊断.txt is kept as experiment record)
+logs/*
+!logs/诊断.txt
+
+# Third-party paper (copyright, binary)
+论文原文.pdf
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
