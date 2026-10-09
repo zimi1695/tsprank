@@ -44,10 +44,6 @@ data/stock_data.csv
 logs/*
 !logs/诊断.txt
 
-# Third-party paper (copyright, binary)
-论文原文.pdf
-*.pdf
-
 # OS
 .DS_Store
 Thumbs.db
